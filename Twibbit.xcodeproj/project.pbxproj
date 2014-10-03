@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7240B519DEF56200132043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240B419DEF56200132043 /* Foundation.framework */; };
+		FA7240B719DEF56200132043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240B619DEF56200132043 /* CoreGraphics.framework */; };
+		FA7240B919DEF56200132043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240B819DEF56200132043 /* UIKit.framework */; };
+		FA7240BF19DEF56200132043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7240BD19DEF56200132043 /* InfoPlist.strings */; };
+		FA7240C119DEF56200132043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7240C019DEF56200132043 /* main.m */; };
+		FA7240C519DEF56200132043 /* TWIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7240C419DEF56200132043 /* TWIAppDelegate.m */; };
+		FA7240C819DEF56200132043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7240C619DEF56200132043 /* Main.storyboard */; };
+		FA7240CB19DEF56200132043 /* TWIFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7240CA19DEF56200132043 /* TWIFirstViewController.m */; };
+		FA7240CE19DEF56200132043 /* TWISecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7240CD19DEF56200132043 /* TWISecondViewController.m */; };
+		FA7240D019DEF56200132043 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7240CF19DEF56200132043 /* Images.xcassets */; };
+		FA7240D719DEF56200132043 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240D619DEF56200132043 /* XCTest.framework */; };
+		FA7240D819DEF56200132043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240B419DEF56200132043 /* Foundation.framework */; };
+		FA7240D919DEF56200132043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7240B819DEF56200132043 /* UIKit.framework */; };
+		FA7240E119DEF56200132043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA7240DF19DEF56200132043 /* InfoPlist.strings */; };
+		FA7240E319DEF56200132043 /* TwibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7240E219DEF56200132043 /* TwibbitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7240DA19DEF56200132043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7240A919DEF56200132043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7240B019DEF56200132043;
+			remoteInfo = Twibbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7240B119DEF56200132043 /* Twibbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twibbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7240B419DEF56200132043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA7240B619DEF56200132043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA7240B819DEF56200132043 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA7240BC19DEF56200132043 /* Twibbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twibbit-Info.plist"; sourceTree = "<group>"; };
+		FA7240BE19DEF56200132043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7240C019DEF56200132043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA7240C219DEF56200132043 /* Twibbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twibbit-Prefix.pch"; sourceTree = "<group>"; };
+		FA7240C319DEF56200132043 /* TWIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWIAppDelegate.h; sourceTree = "<group>"; };
+		FA7240C419DEF56200132043 /* TWIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWIAppDelegate.m; sourceTree = "<group>"; };
+		FA7240C719DEF56200132043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7240C919DEF56200132043 /* TWIFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWIFirstViewController.h; sourceTree = "<group>"; };
+		FA7240CA19DEF56200132043 /* TWIFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWIFirstViewController.m; sourceTree = "<group>"; };
+		FA7240CC19DEF56200132043 /* TWISecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWISecondViewController.h; sourceTree = "<group>"; };
+		FA7240CD19DEF56200132043 /* TWISecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWISecondViewController.m; sourceTree = "<group>"; };
+		FA7240CF19DEF56200132043 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA7240D519DEF56200132043 /* TwibbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwibbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7240D619DEF56200132043 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA7240DE19DEF56200132043 /* TwibbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwibbitTests-Info.plist"; sourceTree = "<group>"; };
+		FA7240E019DEF56200132043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA7240E219DEF56200132043 /* TwibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwibbitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7240AE19DEF56200132043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240B719DEF56200132043 /* CoreGraphics.framework in Frameworks */,
+				FA7240B919DEF56200132043 /* UIKit.framework in Frameworks */,
+				FA7240B519DEF56200132043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7240D219DEF56200132043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240D719DEF56200132043 /* XCTest.framework in Frameworks */,
+				FA7240D919DEF56200132043 /* UIKit.framework in Frameworks */,
+				FA7240D819DEF56200132043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7240A819DEF56200132043 = {
+			isa = PBXGroup;
+			children = (
+				FA7240BA19DEF56200132043 /* Twibbit */,
+				FA7240DC19DEF56200132043 /* TwibbitTests */,
+				FA7240B319DEF56200132043 /* Frameworks */,
+				FA7240B219DEF56200132043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7240B219DEF56200132043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240B119DEF56200132043 /* Twibbit.app */,
+				FA7240D519DEF56200132043 /* TwibbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7240B319DEF56200132043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240B419DEF56200132043 /* Foundation.framework */,
+				FA7240B619DEF56200132043 /* CoreGraphics.framework */,
+				FA7240B819DEF56200132043 /* UIKit.framework */,
+				FA7240D619DEF56200132043 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7240BA19DEF56200132043 /* Twibbit */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240C319DEF56200132043 /* TWIAppDelegate.h */,
+				FA7240C419DEF56200132043 /* TWIAppDelegate.m */,
+				FA7240C619DEF56200132043 /* Main.storyboard */,
+				FA7240C919DEF56200132043 /* TWIFirstViewController.h */,
+				FA7240CA19DEF56200132043 /* TWIFirstViewController.m */,
+				FA7240CC19DEF56200132043 /* TWISecondViewController.h */,
+				FA7240CD19DEF56200132043 /* TWISecondViewController.m */,
+				FA7240CF19DEF56200132043 /* Images.xcassets */,
+				FA7240BB19DEF56200132043 /* Supporting Files */,
+			);
+			path = Twibbit;
+			sourceTree = "<group>";
+		};
+		FA7240BB19DEF56200132043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240BC19DEF56200132043 /* Twibbit-Info.plist */,
+				FA7240BD19DEF56200132043 /* InfoPlist.strings */,
+				FA7240C019DEF56200132043 /* main.m */,
+				FA7240C219DEF56200132043 /* Twibbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7240DC19DEF56200132043 /* TwibbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240E219DEF56200132043 /* TwibbitTests.m */,
+				FA7240DD19DEF56200132043 /* Supporting Files */,
+			);
+			path = TwibbitTests;
+			sourceTree = "<group>";
+		};
+		FA7240DD19DEF56200132043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7240DE19DEF56200132043 /* TwibbitTests-Info.plist */,
+				FA7240DF19DEF56200132043 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7240B019DEF56200132043 /* Twibbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7240E619DEF56200132043 /* Build configuration list for PBXNativeTarget "Twibbit" */;
+			buildPhases = (
+				FA7240AD19DEF56200132043 /* Sources */,
+				FA7240AE19DEF56200132043 /* Frameworks */,
+				FA7240AF19DEF56200132043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twibbit;
+			productName = Twibbit;
+			productReference = FA7240B119DEF56200132043 /* Twibbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7240D419DEF56200132043 /* TwibbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7240E919DEF56200132043 /* Build configuration list for PBXNativeTarget "TwibbitTests" */;
+			buildPhases = (
+				FA7240D119DEF56200132043 /* Sources */,
+				FA7240D219DEF56200132043 /* Frameworks */,
+				FA7240D319DEF56200132043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7240DB19DEF56200132043 /* PBXTargetDependency */,
+			);
+			name = TwibbitTests;
+			productName = TwibbitTests;
+			productReference = FA7240D519DEF56200132043 /* TwibbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7240A919DEF56200132043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TWI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zefritz;
+				TargetAttributes = {
+					FA7240D419DEF56200132043 = {
+						TestTargetID = FA7240B019DEF56200132043;
+					};
+				};
+			};
+			buildConfigurationList = FA7240AC19DEF56200132043 /* Build configuration list for PBXProject "Twibbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7240A819DEF56200132043;
+			productRefGroup = FA7240B219DEF56200132043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7240B019DEF56200132043 /* Twibbit */,
+				FA7240D419DEF56200132043 /* TwibbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7240AF19DEF56200132043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240D019DEF56200132043 /* Images.xcassets in Resources */,
+				FA7240BF19DEF56200132043 /* InfoPlist.strings in Resources */,
+				FA7240C819DEF56200132043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7240D319DEF56200132043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240E119DEF56200132043 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7240AD19DEF56200132043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240C119DEF56200132043 /* main.m in Sources */,
+				FA7240C519DEF56200132043 /* TWIAppDelegate.m in Sources */,
+				FA7240CB19DEF56200132043 /* TWIFirstViewController.m in Sources */,
+				FA7240CE19DEF56200132043 /* TWISecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7240D119DEF56200132043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7240E319DEF56200132043 /* TwibbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7240DB19DEF56200132043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7240B019DEF56200132043 /* Twibbit */;
+			targetProxy = FA7240DA19DEF56200132043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7240BD19DEF56200132043 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7240BE19DEF56200132043 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA7240C619DEF56200132043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7240C719DEF56200132043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7240DF19DEF56200132043 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7240E019DEF56200132043 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7240E419DEF56200132043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA7240E519DEF56200132043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7240E719DEF56200132043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twibbit/Twibbit-Prefix.pch";
+				INFOPLIST_FILE = "Twibbit/Twibbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA7240E819DEF56200132043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twibbit/Twibbit-Prefix.pch";
+				INFOPLIST_FILE = "Twibbit/Twibbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA7240EA19DEF56200132043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twibbit.app/Twibbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twibbit/Twibbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TwibbitTests/TwibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA7240EB19DEF56200132043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twibbit.app/Twibbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twibbit/Twibbit-Prefix.pch";
+				INFOPLIST_FILE = "TwibbitTests/TwibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7240AC19DEF56200132043 /* Build configuration list for PBXProject "Twibbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7240E419DEF56200132043 /* Debug */,
+				FA7240E519DEF56200132043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7240E619DEF56200132043 /* Build configuration list for PBXNativeTarget "Twibbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7240E719DEF56200132043 /* Debug */,
+				FA7240E819DEF56200132043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA7240E919DEF56200132043 /* Build configuration list for PBXNativeTarget "TwibbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7240EA19DEF56200132043 /* Debug */,
+				FA7240EB19DEF56200132043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7240A919DEF56200132043 /* Project object */;
+}
