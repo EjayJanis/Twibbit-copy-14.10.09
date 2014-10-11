@@ -7,12 +7,16 @@
 //
 
 #import "TWIAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation TWIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"q6lcNErqdew032xidHaTHb8dreol7hJnIJ7qN6jX"
+                  clientKey:@"vxUIoAAid54uoJKztKRXxUOyJRTZVDT54zS3ojf3"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 							
