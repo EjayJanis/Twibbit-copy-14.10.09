@@ -32,12 +32,6 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
-    if ([PFUser currentUser] == nil) {
-    
-    return;
-    }
-    [super viewWillAppear:animated];
     
     PFQuery *query = [PFQuery queryWithClassName:@"Messages"];
     [query whereKey:@"recipientsIds" equalTo:[[PFUser currentUser] objectId]];
