@@ -32,12 +32,6 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
-    if ([PFUser currentUser] == nil) {
-    
-    return;
-    }
-    [super viewWillAppear:animated];
     
     PFQuery *query = [PFQuery queryWithClassName:@"Messages"];
     [query whereKey:@"recipientsIds" equalTo:[[PFUser currentUser] objectId]];
@@ -50,7 +44,7 @@
             // We found messages
             self.messages = objects;
             [self.tableView reloadData];
-            NSLog(@"Retrieved %lu messages", (unsigned long)[self.messages count]);
+            NSLog(@"Retrieved %d messages", [self.messages count]);
         }
     }];
 }
